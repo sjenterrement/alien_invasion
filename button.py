@@ -30,5 +30,5 @@ class Button():
     def draw_button(self):
         # 绘制一个用颜色填充的按钮，在绘制文本
         self.screen.fill(self.button_color,self.rect)
-        self.screen.blit(self,msg_image,self.msg_image_rect)
+        self.screen.blit(self.msg_image,self.msg_image_rect)
         
